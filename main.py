@@ -45,6 +45,10 @@ def update():
         player.jump_height = normalJump
 
     if hit.entity == block_1_5:
-        player.SPEED = 3
-
+        player.SPEED = 4
+    if hit.entity == StartStage1:
+        player.SPEED = 1
+    if hit.entity == StartStage2:
+        player.SPEED = 1
+        
 app.run()
