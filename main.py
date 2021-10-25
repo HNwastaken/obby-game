@@ -23,7 +23,8 @@ block_1_3 = JumpBlock(position = (0, -20, 25))
 block_1_4 = NormalBlock(position = (0, 0, 32))
 block_1_5 = SpeedBlock(position = (0, 0, 42))
 
-EndStage1 = Entity(model = "cube", scale = (10, 1, 10), collider = "box", texture = "white_cube", color = "#CACACA", position = (0, 0, 90))
+#stage 2
+StartStage2 = Entity(model = "cube", scale = (10, 1, 10), collider = "box", texture = "white_cube", color = "#CACACA", position = (0, 0, 90))
 
 Sky()
 
