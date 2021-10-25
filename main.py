@@ -5,7 +5,7 @@ from player import ThirdPersonController
 app = Ursina()
 
 normalJump = 0.5
-normalSpeed = 3
+normalSpeed = 1
 
 player = ThirdPersonController("cube", (0, 10, 0), "box", color = color.orange)
 player.jump_height = normalJump
