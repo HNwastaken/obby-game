@@ -5,7 +5,7 @@ from player import ThirdPersonController
 app = Ursina()
 
 normalJump = 0.5
-normalSpeed = 6
+normalSpeed = 3
 
 player = ThirdPersonController("cube", (0, 10, 0), "box", color = color.orange)
 player.jump_height = normalJump
@@ -43,6 +43,6 @@ def update():
         player.jump_height = normalJump
 
     if hit.entity == block_1_5:
-        player.SPEED = 15
+        player.SPEED = 3
 
 app.run()
