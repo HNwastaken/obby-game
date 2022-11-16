@@ -7,3 +7,4 @@
 - HN plays
 # what-happens?
 - click this link to know: https://github.com/HNwastaken/obby-game/blob/main/text.md
+- Credit: https://github.com/mandaw2014/parkourold
